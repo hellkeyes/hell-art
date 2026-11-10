@@ -1,0 +1,9 @@
+.enter-btn{
+    height: 3rem;
+    border: 0.1rem dotted #111110;
+    width: fit-content;
+    cursor: pointer;
+    color: #111110;
+    background-color: #E8E0D6;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
