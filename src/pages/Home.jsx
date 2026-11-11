@@ -19,11 +19,9 @@ function Home() {
                 if (entry.isIntersecting) {
                     entry.target.classList.remove("opacity-0", "translate-y-30");
                     entry.target.classList.add("opacity-100", "translate-y-0");
-                    observer.unobserve(entry.target);
                 }
             });
         });
-
         const cards = document.querySelectorAll(".art-card");
         cards.forEach((card) => {
             observer.observe(card);
