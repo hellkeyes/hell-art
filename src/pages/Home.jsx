@@ -1,16 +1,23 @@
 import { useEffect } from 'react';
 
+import mirror from '../assets/mirror.png';
+import eyes from '../assets/eyes.png';
+import charcoal from '../assets/charcoal.png';
+import eye from '../assets/eye.png';
+import wish from '../assets/wish.png';
+import thingsSheSaid from '../assets/things-she-said.png';
+import redRoom from '../assets/red-room.png';
+
 function Home() {
 
     const artCollection = [
-        { src: "src/assets/mirror.png", title: "mirror"},
-        { src: "src/assets/eyes.png", title: "eyes"},
-        { src: "src/assets/charcoal.png", title: "charcoal"},
-        { src: "src/assets/eye.png", title: "eye"},
-        { src: "src/assets/wish.png", title: "wish"},
-        { src: "src/assets/things-she-said.png", title: "tss"},
-        { src: "src/assets/red-room.png", title: "red-room"},
-        
+        { src: mirror, title: "mirror" },
+        { src: eyes, title: "eyes" },
+        { src: charcoal, title: "charcoal" },
+        { src: eye, title: "eye" },
+        { src: wish, title: "wish" },
+        { src: thingsSheSaid, title: "tss" },
+        { src: redRoom, title: "red-room" },
     ];
 
     useEffect(() => {
