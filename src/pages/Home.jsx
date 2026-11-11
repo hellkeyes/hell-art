@@ -46,7 +46,7 @@ function Home() {
             
             <div className="img-holder columns-2 md:columns-3 gap-8">
                 {artCollection.map((art, i) => (
-                    <div className="art-card  break-inside-avoid mb-6 opacity-0 transition-all  translate-y-30 duration-[1s]" key={i}>
+                    <div className="art-card  break-inside-avoid mb-6 opacity-0 transition-all  translate-y-30 duration-[2s]" key={i}>
                         <img src={art.src} alt={art.title} className="art-image" />
                     </div>
                 )
